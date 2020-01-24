@@ -1,0 +1,1200 @@
+/*................................ en commun ...............................*/
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Regular-webfont.woff') format('woff'), url('fonts/Roboto-Regular-webfont.ttf') format('truetype'), url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.trait {
+    position: relative;
+    height: 2px;
+    background-color: #c1cfd4;
+    max-width: 301px;
+    margin: auto;
+    left: 0%;
+    top: -34px;
+}
+
+.trait:before {
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #5cadd3;
+    position: absolute;
+    left: calc(50% - 10px);
+    border-radius: 50%;
+    z-index: 2;
+    top: -7px;
+}
+
+.trait:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    top: -18px;
+    position: relative;
+    left: 127px;
+}
+
+p,
+h1,
+h2,
+body {
+    font-family: 'robotoregular', arial;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: x-large;
+    color: black;
+}
+
+p {
+    font-size: 14px;
+}
+
+.ancre {
+    position: relative;
+    top: -116px;
+}
+
+
+/*...............................  accueil   ...............................*/
+
+.blockpage {
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
+
+.logoimg {
+    position: relative;
+    top: 20px;
+    left: 143px;
+}
+
+.menu1 {
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 200px;
+    display: flex;
+    list-style-type: none;
+    text-indent: 50px;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    color: #868484;
+    font-size: 15px;
+    display: inline;
+}
+
+.menu:hover {
+    border-top: 3px solid #5cadd3;
+    padding-top: 45px;
+}
+
+
+/*.............................. IMG + TEXT ACCUEIL ........................*/
+
+.section1 {
+    position: relative;
+    margin-top: 130px;
+}
+
+.imageaccueil {
+    width: 100%;
+}
+
+.section1-texte {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.titre1 {
+    font-size: xx-large;
+    color: white;
+}
+
+.webagencytitre {
+    color: #5cadd3;
+}
+
+.titre2 {
+    font-size: smaller;
+    color: white;
+}
+
+.bouton0 {
+    display: inline-block;
+    font-family: arial;
+    background-color: #6db7ec;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    border-bottom: rgb(31, 106, 136) solid 3px;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+
+.fleche {
+    position: absolute;
+    top: calc(50% - 15px);
+    display: flex !important;
+    height: 50px;
+    width: 25px;
+    color: #ffffff;
+    background: rgba(155, 147, 147, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.fleche-gauche {
+    left: 0;
+    font-size: 30px;
+    border-radius: 0 50px 50px 0;
+    padding-right: 4px;
+}
+
+.fleche-droite {
+    right: 0;
+    font-size: 30px;
+    border-radius: 50px 0 0 50px;
+    padding-left: 4px;
+}
+
+.barre-bleu {
+    position: absolute;
+    bottom: 4px;
+    width: 251px;
+    border: 3px solid #4a99da;
+    background-color: #4a99da;
+}
+
+
+/*........................      Services       .............................*/
+
+.secteur2 {
+    position: relative;
+}
+
+.serv {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    margin-bottom: 56px;
+}
+
+.paragraphe1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.ordi {
+    position: relative;
+    float: left;
+    width: 51%;
+    top: 0px;
+    left: -8px;
+}
+
+.ronds {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    align-items: center;
+    top: -6px;
+    left: -6%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    color: #5cadd3;
+}
+
+.ronds:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #5cadd3;
+    z-index: 9;
+    top: calc(50% - 11.5px + 5px);
+    position: absolute;
+    right: -5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px white;
+}
+
+.titre-service {
+    position: relative;
+    top: -66px;
+    left: -2%;
+}
+
+.paragraphe2 {
+    margin-left: 51%;
+    position: relative;
+    top: -63px;
+    right: 30px;
+}
+
+
+/*............................   Portfolio  ................................*/
+
+.section3 {
+    margin: 0%;
+}
+
+.portfolio {
+    padding: 1px 0 6px 0;
+    font: 17px 'robotoregular', Arial, Helvetica, sans-serif;
+    background: #2a7b9b;
+    color: #fff;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.port {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    width: 100%;
+}
+
+.text-port {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-porfolio {
+    position: relative;
+    border-bottom: 2px solid #aeb8bd;
+}
+
+.menu-porfolio:hover {
+    border-color: #034d6a;
+}
+
+.menu-porfolio .fleche-menu2 {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    opacity: 0;
+    color: #034d6a;
+}
+
+.menu-porfolio:hover .fleche-menu2 {
+    opacity: 1;
+}
+
+.menu2 {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    place-content: center;
+    list-style-type: none;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+}
+
+.menu-2 {
+    text-decoration: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #5cadd3;
+    border-color: #034d6a;
+    padding: 5px;
+    color: white;
+}
+
+.menu-2 .fleche-menu2 {
+    opacity: 1;
+}
+
+.menu-3 {
+    text-decoration: none;
+    background-color: #aeb8bd;
+    padding: 5px;
+    color: white;
+}
+
+.menu-3:hover {
+    background-color: #5cadd3;
+}
+
+.menu-4 {
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #aeb8bd;
+    padding: 5px;
+    color: white;
+}
+
+.menu-4:hover {
+    background-color: #5cadd3;
+}
+
+.contenant {
+    position: relative;
+    display: table;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.oeil {
+    content: " ";
+    display: block;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    left: 211px;
+    top: -52px;
+    background-color: #27a3d4;
+    z-index: 9;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+.oeil:before {
+    position: absolute;
+    top: calc(50% - 5.5px);
+    left: calc(50% - 5px);
+}
+
+.conteneur1 {
+    display: flex;
+    align-items: center;
+}
+
+.imageportfolio {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*.......   : hover portfolio   ........*/
+
+.écrit-hover {
+    position: absolute;
+    bottom: 0;
+    padding: 7px;
+    left: 0;
+    display: block;
+    height: 30%;
+    width: 95%;
+    transition: 5ms;
+    text-align: left;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    opacity: 0;
+    background-color: rgba(80, 77, 77, 0.719);
+}
+
+.element:hover .écrit-hover {
+    opacity: 1;
+}
+
+
+/*..................................................*/
+
+.element {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 278px;
+}
+
+.conteneur2 {
+    display: flex;
+    align-items: center;
+}
+
+
+/*...............................   Contact   ..............................*/
+
+.section4 {
+    position: relative;
+    margin-top: 70px;
+}
+
+#contact {
+    top: 372%;
+    left: 70%;
+    Z-INDEX: 2;
+    background-color: rgba(255, 255, 255);
+}
+
+#section4-calque-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5cadd3;
+    opacity: 0.5;
+}
+
+.cont {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    margin-bottom: 59px;
+}
+
+.infocont {
+    margin: auto;
+    width: 238px;
+    padding: 2em;
+    position: absolute;
+    top: 89px;
+    left: 70%;
+    z-index: 9;
+}
+
+form {
+    top: 10%;
+    right: 10%;
+}
+
+.infocont {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.websas {
+    font-size: 13px;
+}
+
+.adresse {
+    font-size: 13px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    width: 234px;
+}
+
+input {
+    width: 230px;
+}
+
+.bouton1,
+textarea {
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #D3D3D3;
+    margin-top: 4px;
+}
+
+.bouton1 {
+    width: auto;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: #5cadd3;
+    color: white;
+    background-color: #6db7ec;
+    border: rgb(49, 194, 251);
+    text-align: center;
+}
+
+.carte {
+    width: 100%;
+    height: 500px;
+}
+
+
+/*............................     REPOSIVES  ..............................*/
+
+@media all and (max-width:1600px) {
+    .imageaccueil {
+        width: 100%;
+    }
+    .logoimg {
+        position: static;
+        top: 0;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .titre-service {
+        position: relative;
+        top: -66px;
+        left: -2%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -6px;
+        left: -6%;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+}
+
+@media (max-width: 1600px) {
+    .imageaccueil {
+        width: 100%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -6px;
+        left: -7%;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+}
+
+@media all and (max-width:1207px) {
+    .imageaccueil {
+        width: 100%;
+    }
+    .logoimg {
+        position: static;
+        top: 0;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -13px;
+        left: -7%;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+}
+
+@media all and (max-width:1177px) {
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -21px;
+        left: 1px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+}
+
+@media all and (max-width:1177px) {
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -32px;
+        left: -17px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .imageaccueil {
+        width: 100% important;
+    }
+    .titre-service {
+        position: relative;
+        top: -68px;
+        left: 5%;
+    }
+}
+
+@media all and (max-width:1039px) {
+    .titre1 {
+        position: relative;
+    }
+    .imageaccueil {
+        width: 100%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -38px;
+        left: 1px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .imageaccueil {
+        width: 100%;
+    }
+    .logoimg {
+        position: static;
+        top: 0;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: -31px;
+        left: -27px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .contenant {
+        position: relative;
+        display: table;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .conteneur1 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteneur2 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:927px) {
+    .section1-texte {
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .contenant {
+        position: relative;
+        display: table;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .conteneur1 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteneur2 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:911px) {
+    header {
+        position: relative;
+        background-color: #FFFFFF;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+    }
+    .imageaccueil {
+        width: 100%;
+    }
+    .logoimg {
+        align-content: center;
+    }
+    .menu1 {
+        position: relative;
+        top: 30px;
+        left: 20px;
+        display: flex;
+        float: left;
+        list-style-type: none;
+        text-indent: 20px;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    }
+    .ordi {
+        position: relative;
+        float: none;
+        width: 43%;
+    }
+    .titre-service {
+        position: relative;
+        top: -7px;
+        left: 12%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: 28px;
+        left: 50px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .infocont {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 332px;
+        top: 0px;
+        left: -5%;
+        padding: 2em;
+        text-align: center;
+        z-index: 9;
+        border: none;
+    }
+    .carte {
+        position: absolute;
+        width: 100%;
+        height: 455px;
+    }
+}
+
+@media all and (max-width:881px) {
+    .section1-texte {
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .titre1 {
+        font-size: x-large;
+        color: white;
+    }
+    .infocont {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 332px;
+        top: 0px;
+        left: -5%;
+        padding: 2em;
+        text-align: center;
+        z-index: 9;
+        border: none;
+    }
+    .carte {
+        position: absolute;
+        width: 100%;
+        height: 455px;
+    }
+}
+
+@media all and (max-width:768px) {
+    header {
+        position: relative;
+        background-color: #FFFFFF;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+    }
+    .imageaccueil {
+        width: 100%;
+    }
+    .titre1 {
+        font-size: large;
+        color: white;
+    }
+    .section1-texte {
+        position: absolute;
+        top: 11%;
+        left: 8%;
+    }
+    .menu1 {
+        position: relative;
+        top: 30px;
+        left: 20px;
+        display: flex;
+        float: left;
+        list-style-type: none;
+        text-indent: 20px;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    }
+    .ordi {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        top: -30px;
+        left: 28%;
+    }
+    .titre-service {
+        position: relative;
+        top: -13px;
+        left: 15%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+        align-items: center;
+        top: 23px;
+        left: 69px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .contenant {
+        position: relative;
+        display: table;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .conteneur1 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteneur2 {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .infocont {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 332px;
+        top: 0px;
+        left: -5%;
+        padding: 2em;
+        text-align: center;
+        z-index: 9;
+        border: none;
+    }
+    .carte {
+        position: absolute;
+        width: 100%;
+        height: 455px;
+    }
+}
+
+@media all and (max-width:719px) {
+    .titre1 {
+        font-size: small;
+        color: white;
+    }
+    .titre-service {
+        position: relative;
+        top: -11px;
+        left: 20%;
+    }
+    .carte {
+        position: absolute;
+        width: 100%;
+        height: 455px;
+    }
+}
+
+@media all and (max-width:569px) {
+    .titre1 {
+        font-size: x-small;
+        color: white;
+    }
+    .imageaccueil {
+        display: none;
+    }
+    .barre-bleu {
+        display: none;
+    }
+    .fleche {
+        display: none;
+    }
+    .fleche-gauche {
+        display: none;
+    }
+    .fleche-droite {
+        display: none;
+    }
+    .section1 {
+        background-color: rgba(92, 173, 211, 0.5);
+        height: 120px;
+        width: 100%;
+    }
+    .titre-service {
+        position: relative;
+        top: -66px;
+        left: 32%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 4% 4% 4% 4%;
+        align-items: center;
+        top: -26px;
+        left: 46px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .paragraphe2 {
+        margin-left: 19%;
+        position: relative;
+        top: -50px;
+        right: 30px;
+    }
+}
+
+@media all and (max-width:425px) {
+    .bouton0 {
+        display: none;
+    }
+}
+
+@media all and (max-width:375px) {
+    header {
+        background-color: #FFFFFF;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+    }
+    .imageaccueil {
+        display: none;
+    }
+    .barre-bleu {
+        display: none;
+    }
+    .fleche {
+        display: none;
+    }
+    .fleche-gauche {
+        display: none;
+    }
+    .fleche-droite {
+        display: none;
+    }
+    .section1 {
+        background-color: rgba(92, 173, 211, 0.5);
+        height: 120px;
+        width: 100%;
+    }
+    .menu1 {
+        position: relative;
+        top: 30px;
+        left: 17px;
+        list-style-type: none;
+        text-indent: 7px;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    }
+    .titre1 {
+        font-size: x-large;
+        color: white;
+    }
+    .titre2 {
+        display: none;
+        font-size: xx-small;
+        color: white;
+    }
+    .bouton0 {
+        display: none;
+        font-family: arial;
+        background-color: #6db7ec;
+        color: white;
+        text-align: center;
+        border-radius: 21px;
+        border-bottom: rgb(31, 106, 136) solid 3px;
+        text-decoration: none;
+        margin-top: 15px;
+        padding: 2px 6px;
+    }
+    .serv {
+        font-size: 27px;
+        text-align: center;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+        margin-top: 45px;
+        margin-bottom: 56px;
+    }
+    .ordi {
+        position: relative;
+        float: none;
+        width: 43%;
+        display: none;
+    }
+    .titre-service {
+        position: relative;
+        top: -66px;
+        left: 32%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 4% 4% 4% 4%;
+        align-items: center;
+        top: -26px;
+        left: 46px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .paragraphe2 {
+        margin-left: 19%;
+        position: relative;
+        top: -50px;
+        right: 30px;
+    }
+    .infocont {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 332px;
+        top: 0px;
+        left: 0;
+        padding: 0em;
+        text-align: center;
+        z-index: 9;
+        border: none;
+    }
+}
+
+@media all and (max-width:320px) {
+    header {
+        background-color: #FFFFFF;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+    }
+    .imageaccueil {
+        display: none;
+    }
+    .barre-bleu {
+        display: none;
+    }
+    .fleche {
+        display: none;
+    }
+    .section1 {
+        background-color: rgba(92, 173, 211, 0.5);
+        height: 120px;
+        width: 100%;
+    }
+    .menu1 {
+        position: relative;
+        top: 30px;
+        left: -4px;
+        list-style-type: none;
+        text-indent: 7px;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    }
+    .titre2 {
+        display: none;
+        font-size: xx-small;
+        color: white;
+    }
+    .bouton0 {
+        display: none;
+        font-family: arial;
+        background-color: #6db7ec;
+        color: white;
+        text-align: center;
+        border-radius: 21px;
+        border-bottom: rgb(31, 106, 136) solid 3px;
+        text-decoration: none;
+        margin-top: 15px;
+        padding: 2px 6px;
+    }
+    .serv {
+        font-size: 27px;
+        text-align: center;
+        font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+        margin-top: 45px;
+        margin-bottom: 56px;
+    }
+    .ordi {
+        position: relative;
+        float: none;
+        width: 43%;
+        display: none;
+    }
+    .titre-service {
+        position: relative;
+        top: -66px;
+        left: 32%;
+    }
+    .ronds {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 4% 4% 4% 4%;
+        align-items: center;
+        top: -26px;
+        left: 46px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        color: #5cadd3;
+    }
+    .paragraphe2 {
+        margin-left: 19%;
+        position: relative;
+        top: -50px;
+        right: 30px;
+    }
+    .portfolio {
+        display: none;
+        width: 100%;
+    }
+    .infocont {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 332px;
+        top: 0px;
+        left: 0;
+        padding: 0em;
+        text-align: center;
+        z-index: 9;
+        border: none;
+    }
+}
+
+
+/*.................... FIN  RESPONSIVE   .....................*/
